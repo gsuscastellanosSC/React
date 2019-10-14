@@ -112,7 +112,11 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 		
 	/*JSX: JavaScript + HTML*/
 
+	/*Props: Comunicación entre Componentes*/
 
+		Las Props son la forma de enviar y recibir información en nuestros componentes. Son la forma de comunicar cada componente con el resto de la aplicación. Son muy parecidas a los parámetros y argumentos de las funciones en cualquier lenguaje de programación.
+
+	/*Props: Comunicación entre Componentes*/
 
 /*Curso Práctico de React JS*/
 
