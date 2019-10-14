@@ -174,10 +174,10 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 			--> Archivo: public\index.html
 		5. Instalar React:
 			sudo npm install react-dom
-	                "react":"^16.10.2",
+		6. Editar package.json:	
+            	"react":"^16.10.2",
 		        "react-dom": "^16.10.2"
-		
-
+	
 	/*Instalación y configuración de entorno*/
 
 /*Curso Práctico de React JS*/
