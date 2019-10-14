@@ -150,5 +150,35 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 		Recuerda que los nombres de estos eventos deben seguir la nomenclatura camelCase: primera palabra en minúsculas, iniciales de las siguientes palabras en mayúsculas y el resto también en minúsculas."
 	/*State - Events*/
 
+	/*Instalación y configuración de entorno*/
+		Iniciar un repositorio en GIT:
+		git init
+		Iniciar un proyecto de Node.js:
+
+		npm init -y
+		```
+
+		Instalar React:
+
+		```bash
+		npm install --save react react-dom
+
+		1. Crear rempo mkdir: platziVideo.
+		2. git init
+		3. Inicializar el proyecto: npm init -y (la bandera -y indica que va a preconfigurar el proyecto y luego va a crear automaticamente.)
+		4. Crear "Estructura del proyecto":
+			--> Carpeta: src
+			--> Carpeta: public
+			--> Carpeta: src\components
+			--> Archivo: src\index.js
+			--> Archivo: public\index.html
+		5. Instalar React:
+			sudo npm install react-dom
+	                "react":"^16.10.2",
+		        "react-dom": "^16.10.2"
+		
+
+	/*Instalación y configuración de entorno*/
+
 /*Curso Práctico de React JS*/
 
