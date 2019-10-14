@@ -118,5 +118,37 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 
 	/*Props: Comunicación entre Componentes*/
 
+	/*¿Qué son los métodos del ciclo vida?*/
+
+		https://platzi.com/clases/1651-react-ejs/22576-que-son-los-metodos-del-ciclo-vida/
+
+	/*¿Qué son los métodos del ciclo vida?*/
+
+	/*State - Events*/
+		"React nos permite responder a las interacciones de los usuarios con propiedades como onClick, onChange, onKeyPress, onFocus, onScroll, entre otras.
+
+		Estas propiedades reciben el nombre de la función que ejecuta el código que responde a las interacciones de los usuarios. Seguramente, esta función usará la función this.setState para actualizar el estado de nuestro componente.
+
+		class Button extends React.Component {
+		state = { count: 0 }
+
+		handleClick = () => (
+			this.setState({ count: this.state.count + 1 })
+		);
+
+		render() {
+			const { count } = this.state;
+
+			return (
+			<div>
+				<h1>Manzanas: {count}</h1>
+				<button onClick{this.handleClick}>Sumar</button>
+			</div>
+			);
+		}
+		}
+		Recuerda que los nombres de estos eventos deben seguir la nomenclatura camelCase: primera palabra en minúsculas, iniciales de las siguientes palabras en mayúsculas y el resto también en minúsculas."
+	/*State - Events*/
+
 /*Curso Práctico de React JS*/
 
