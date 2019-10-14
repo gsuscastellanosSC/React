@@ -81,12 +81,13 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 
 		/*Stateless*/
 			**Son lo más usados**
-
-			No depende de tener un ciclo de vidad, ni un estado. Solo presenta la lógica.
+			No depende de tener un ciclo de vidad, ni un estado. Solo presenta lo que necesitamos.
 		/*Stateless*/
 
 		/*Presentational*/
-
+			**No tiene estado**
+			tiene un return explícito.
+			Solo nos sirve para mostar partes muy pequeñas del html, no tienen lógica o propiedades.
 		/*Presentational*/
 
 	/*Componentes*/
