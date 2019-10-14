@@ -63,17 +63,7 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 			/*src*/
 		/*Carpetas*/
 
-	/*Create React App y Tipos de Componentes*/
-
-	/*JSX: JavaScript + HTML*/
-
-		Estamos acostumbrados a escribir código HTML en archivos .html y la lógica de JavaScript en archivos .js.
-
-		React usa JSX: una sintaxis que nos permite escribir la estructura HTML y la lógica en JavaScript desde un mismo lugar: nuestros componentes.
-
-	/*JSX: JavaScript + HTML*/
-
-	/*Componentes*/
+			/*Componentes*/
 		/*Stateful*/
 			Componente Estructura de clase Componente mas robusto dentro de React.
 			Manjea ciclo de vidad, eventos y estados.
@@ -91,6 +81,38 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 		/*Presentational*/
 
 	/*Componentes*/
+
+	/*Create React App y Tipos de Componentes*/
+
+	/*JSX: JavaScript + HTML*/
+
+		Estamos acostumbrados a escribir código HTML en archivos .html y la lógica de JavaScript en archivos .js.
+
+		React usa JSX: una sintaxis que nos permite escribir la estructura HTML y la lógica en JavaScript desde un mismo lugar: nuestros componentes.
+		
+		**Siempre debemos asigna los nombres de las clases para el uso de CSS como clasName**
+
+		**Otra forma de un if**
+				if(isTrue){
+					<h4> Esto es verdadero</h4>
+				}else{
+					<h5>Soy False</h5>
+				} 
+			LO anterior es IGUAL A:
+				{isTrue ?  <h4> Esto es verdadero</h4> : <h5>Soy False</h5>}
+
+			Ó
+
+				if(isTrue){
+					<h4>Soy verdadero</h4>
+				}
+			LO anterior es IGUAL A:
+				{isTrue && <h4>Soy verdadero</h4>}
+		**Otra forma de un if**
+		
+	/*JSX: JavaScript + HTML*/
+
+
 
 /*Curso Práctico de React JS*/
 
