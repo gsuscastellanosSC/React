@@ -229,7 +229,23 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 		==> "Si lo anterior da error ejecutar npm i react react-dom -D solved the problem."
 		
 	/*Webpack: Empaquetando nuestros módulos*/
+
+	/*Webpack Dev Server: Reporte de errores y Cambios en tiempo real*/
 	
+		Instalación de Webpack Dev Server:
+
+		sudo npm install webpack-dev-server --save-dev
+		Script para ejecutar el servidor de Webpack y visualizar los cambios en tiempo real (package.json):
+
+		{
+		"scripts": {
+			"build": "webpack --mode production",
+			"start": "webpack-dev-server --open --mode development"
+		},
+		}
+	
+
+	/*Webpack Dev Server: Reporte de errores y Cambios en tiempo real*/
 	
 
 	
