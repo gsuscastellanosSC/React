@@ -190,9 +190,9 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 		Configuración de Babel (.babelrc):
 
 		{
-			""presets"": [
-			""@babel/preset-env"",
-			""@babel/preset-react""
+			"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
 		],
 		}
 		/*react-dom*/
@@ -246,8 +246,43 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 	
 
 	/*Webpack Dev Server: Reporte de errores y Cambios en tiempo real*/
-	
 
+	/*Estilos con SASS*/
+		Los preprocesadores como Sass son herramientas que nos permiten escribir CSS con una sintaxis un poco diferente y más amigable que luego se transformará en CSS normal. Gracias a Sass podemos escribir CSS con variables, mixins, bucles, entre otras características.
+
+		Instalación de Sass:
+		   -2. sudo chown -R 1000:1000 "/home/jesusalmircarcastellanos/.npm"   
+		   -1. sudo chown -R "usuario" "ruta"/node_modules
+			0. npm install node-sass
+			1. sudo npm install --save-dev mini-css-extract-plugin css-loader node-sass sass-loader
+			2. Configuración de Sass en Webpack (webpack.config.js):
+
+				const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+				// ...
+
+				module: {
+				rules: [
+					{
+					test: /\.(s*)css$/,
+					use: [
+						{ loader: MiniCssExtractPlugin.loader },
+						'css-loader',
+						'sass-loader',
+					],
+					}, 
+				],
+				},
+
+				// ...
+
+				plugins: [
+				new MiniCssExtractPlugin({
+					filename: 'assets/[name].css',
+				}),
+				],`
+			```
+	/*Estilos con SASS*/
 	
 /*Curso Práctico de React JS*/
 
