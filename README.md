@@ -177,8 +177,61 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 		6. Editar package.json:	
             	"react":"^16.10.2",
 		        "react-dom": "^16.10.2"
-	
+
 	/*Instalación y configuración de entorno*/
 
+	/*Agregando compatibilidad con todos los navegadores usando Babel*/
+
+		Babel es una herramienta muy popular para escribir JavaScript moderno y transformarlo en código que pueda entender cualquier navegador.**Compatibilidad**
+
+		Instalación de Babel y otras herramientas para que funcione con React:
+
+		npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
+		Configuración de Babel (.babelrc):
+
+		{
+			""presets"": [
+			""@babel/preset-env"",
+			""@babel/preset-react""
+		],
+		}
+		/*react-dom*/
+			Libreria que push todo lo que hacemos al navegador.
+		/*react-dom*/
+
+		/*Instalar Babel*/
+
+			1. sudo npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save--dev
+
+			2. Crear archivo .babelrc ~ del proyecto:
+			    {
+   					"presets": [
+     		   		"@babel/preset-env",
+    		    	"@babel/preset-react"
+    			]
+				}	
+		/*Instalar Babel*/
+
+	/*Agregando compatibilidad con todos los navegadores usando Babel*/
+
+	/*Webpack: Empaquetando nuestros módulos*/
+
+		Webpack es una herramienta que nos ayuda a compilar multiples archivos (JavaScript, HTML, CSS, imágenes) en uno solo (o a veces un poco más) que tendrá todo nuestro código listo para producción.
+
+		Instalación de Webpack y algunos plugins:
+
+		"sudo npm install webpack webpack-cli html-webpack-plugin html-loader  --save-dev"
+		
+		*********************
+		"***npm run build***"
+		*********************
+		
+		==> "Si lo anterior da error ejecutar npm i react react-dom -D solved the problem."
+		
+	/*Webpack: Empaquetando nuestros módulos*/
+	
+	
+
+	
 /*Curso Práctico de React JS*/
 
