@@ -284,5 +284,21 @@ Curso Práctico de React JS en @platzi 💚💚💚 https://platzi.com/clases/re
 			```
 	/*Estilos con SASS*/
 	
+	/*Configuración final: ESLint y Git Ignore*/
+
+		El Git Ignore es un archivo que nos permite definir qué archivos NO queremos publicar en nuestros repositorios. Solo debemos crear el archivo .gitignore y escribir los nombres de los archivos y/o carpetas que no queremos publicar.
+		Los linters como ESLint son herramientas que nos ayudan a seguir buenas prácticas o guías de estilo de nuestro código.
+		Se encargan de revisar el código que escribimos para indicarnos dónde tenemos errores o posibles errores. En algunos casos también pueden solucionar los errores automáticamente. De esta manera podemos solucionar los errores incluso antes de que sucedan.
+		Instalación de ESLint:
+
+		npm install --save-dev eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
+		Podemos configurar las reglas de ESLint en el archivo .eslintrc.
+
+		https://gist.github.com/gndx/60ae8b1807263e3a55f790ed17c4c57a
+
+		https://gist.github.com/gndx/747a8913d12e96ff8374e2125efde544 
+
+	/*Configuración final: ESLint y Git Ignore*/
+
 /*Curso Práctico de React JS*/
 
